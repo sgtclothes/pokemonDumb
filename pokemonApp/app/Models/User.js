@@ -8,7 +8,7 @@ const Model = use('Model')
 
 class User extends Model {
 
-  pokemon() {
+  pokemons() {
     return this.hasMany('App/Models/Pokemon')
     }
   static boot () {
